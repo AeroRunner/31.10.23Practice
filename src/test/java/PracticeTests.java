@@ -21,6 +21,7 @@ public class PracticeTests {
         $("#wiki-pages-filter").setValue("SoftAssertions");
         $("#wiki-pages-box").shouldHave(text("SoftAssertions"));
         open("/selenide/selenide/wiki/SoftAssertions");
+
         String primerJUnit5 = String.join(
                 "\n"+ "@ExtendWith({SoftAssertsExtension.class})\n"
                         + "class Tests {\n"

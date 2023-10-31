@@ -30,8 +30,7 @@ public class PracticeTests {
                         + "$(\"#first\").should(visible).click();\n"
                         + "$(\"#second\").should(visible).click();\n"
                         + "}\n"
-                        + "}"
-        );
+                        + "}"           );
         $$("#user-content-3-using-junit5-extend-test-class").shouldHave(texts(primerJUnit5));
     }
 }

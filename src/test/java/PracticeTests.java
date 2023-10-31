@@ -20,8 +20,7 @@ public class PracticeTests {
         $("#wiki-pages-box").shouldHave(text("SoftAssertions"));
         open("/selenide/selenide/wiki/SoftAssertions");
         String primerJUnit5 = String.join(
-                "\n"
-                        + "@ExtendWith({SoftAssertsExtension.class})\n"
+                "\n"+ "@ExtendWith({SoftAssertsExtension.class})\n"
                         + "class Tests {\n"
                         + "@Test\n" + "void test() {\n"
                         + "Configuration.assertionMode = SOFT;\n"

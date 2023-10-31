@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
-
 public class PracticeTests {
     @BeforeAll
     static void beforeAll() {

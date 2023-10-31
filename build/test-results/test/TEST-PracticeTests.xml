@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PracticeTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-31T16:42:42" hostname="DESKTOP-ELPEHJE" time="3.352">
+<testsuite name="PracticeTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-31T17:07:53" hostname="DESKTOP-ELPEHJE" time="3.127">
   <properties/>
-  <testcase name="qaguruHWGIT()" classname="PracticeTests" time="3.352"/>
+  <testcase name="qaguruHWGIT()" classname="PracticeTests" time="3.127"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\AeroRunner\IdeaProjects\31.10.23PracticeTEST\build\downloads\1698770562080_51348_1
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\AeroRunner\IdeaProjects\31.10.23PracticeTEST\build\downloads\1698772073655_100568_1
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
-окт. 31, 2023 7:42:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+окт. 31, 2023 8:07:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 118, so returning the closest version found: 117
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=118.0.5993.118 Platform=windows
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.19.1
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.13.0 build revision: ba948ece5b*
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (80bb4197250f6c0d840192c36d000c04)
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (80bb4197250f6c0d840192c36d000c04),proxy=null,downloadsFolder=C:\Users\AeroRunner\IdeaProjects\31.10.23PracticeTEST\build\downloads\1698770562080_51348_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (44f90ae3ccefb9674e1a6884bc397973)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (44f90ae3ccefb9674e1a6884bc397973),proxy=null,downloadsFolder=C:\Users\AeroRunner\IdeaProjects\31.10.23PracticeTEST\build\downloads\1698772073655_100568_1] in 1 [size=1]
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
 ]]></system-err>
 </testsuite>

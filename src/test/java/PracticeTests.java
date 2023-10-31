@@ -28,9 +28,9 @@ public class PracticeTests {
         $("#wiki-pages-box").shouldHave(text("SoftAssertions"));
         open("/selenide/selenide/wiki/SoftAssertions");
         String primerJUnit5 = String.join(
-                "\n"+
-                "@ExtendWith({SoftAssertsExtension.class})\n"+
-                        "class Tests {\n"
+                "\n"
+                        + "@ExtendWith({SoftAssertsExtension.class})\n"
+                        + "class Tests {\n"
                         + "@Test\n" + "void test() {\n"
                         + "Configuration.assertionMode = SOFT;\n"
                         + "open(\"page.html\");\n"
@@ -39,8 +39,8 @@ public class PracticeTests {
                         + "$(\"#second\").should(visible).click();\n"
                         + "}\n"
                         + "}"
-                                        );
-        $$("#user-content-3-using-junit5-extend-test-class").shouldHave(CollectionCondition.texts(primerJUnit5));
+                                         );
+        $$("#user-content-3-using-junit5-extend-test-class").shouldHave(texts(primerJUnit5));
 
 
 

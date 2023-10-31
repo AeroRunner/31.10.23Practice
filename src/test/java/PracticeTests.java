@@ -1,17 +1,10 @@
-import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
-import java.io.File;
-
-import static com.codeborne.selenide.CollectionCondition.itemWithText;
 import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
+
 public class PracticeTests {
     @BeforeAll
     static void beforeAll() {
@@ -21,7 +14,6 @@ public class PracticeTests {
     }
     @Test
     void qaguruHWGIT() {
-
         open("/selenide/selenide");
         $("#wiki-tab").click();
         $("#wiki-pages-filter").setValue("SoftAssertions");
@@ -39,12 +31,7 @@ public class PracticeTests {
                         + "$(\"#second\").should(visible).click();\n"
                         + "}\n"
                         + "}"
-                                         );
+        );
         $$("#user-content-3-using-junit5-extend-test-class").shouldHave(texts(primerJUnit5));
-
-
-
-
-
     }
 }
